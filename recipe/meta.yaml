@@ -1,6 +1,6 @@
 {% set name = "sqlalchemy-redshift" %}
-{% set version = "0.5.0" %}
-{% set sha256 = "8ea22cbdf10ff043e9f99f63ce11f4c4b9c5c52ea643df29048309fb284232f4" %}
+{% set version = "0.7.1" %}
+{% set sha256 = "17e867ebd33806e287f2ec4e4743906cb77b7635cc755737986d10554621760a" %}
 
 package:
   name: {{ name|lower }}
