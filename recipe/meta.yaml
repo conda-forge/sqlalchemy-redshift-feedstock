@@ -1,24 +1,21 @@
-{% set name = "sqlalchemy-redshift" %}
 {% set version = "0.7.1" %}
-{% set sha256 = "17e867ebd33806e287f2ec4e4743906cb77b7635cc755737986d10554621760a" %}
 
 package:
-  name: {{ name|lower }}
+  name: sqlalchemy-redshift
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://github.com/sqlalchemy-redshift/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  url: https://github.com/sqlalchemy-redshift/sqlalchemy-redshift/archive/{{ version }}.tar.gz
+  sha256: 17e867ebd33806e287f2ec4e4743906cb77b7635cc755737986d10554621760a
 
 build:
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
   run:
     - python
     - setuptools
