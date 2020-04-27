@@ -117,4 +117,5 @@ Feedstock Maintainers
 =====================
 
 * [@mcg1969](https://github.com/mcg1969/)
+* [@synapticarbors](https://github.com/synapticarbors/)
 
