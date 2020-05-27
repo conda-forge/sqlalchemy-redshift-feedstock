@@ -1,4 +1,4 @@
-{% set version = "0.7.7" %}
+{% set version = "0.7.8" %}
 
 package:
   name: sqlalchemy-redshift
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/sqlalchemy-redshift/sqlalchemy-redshift/archive/{{ version }}.tar.gz
-  sha256: 5222aff4aee7536ac09c5ed882571f98924034622e0eb168927041470d095e9c
+  sha256: 64579a2fe65e7d25046741639d4d200501919360ffbe8b8046af5ddec88f0274
 
 build:
   noarch: python
@@ -32,7 +32,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'Amazon Redshift SQLAlchemy Dialect'
+  summary: Amazon Redshift SQLAlchemy Dialect
 
   doc_url: https://sqlalchemy-redshift.readthedocs.io/en/latest/
   dev_url: https://github.com/sqlalchemy-redshift/sqlalchemy-redshift
