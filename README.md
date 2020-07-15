@@ -5,7 +5,7 @@ Home: https://github.com/sqlalchemy-redshift/sqlalchemy-redshift
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Amazon Redshift SQLAlchemy Dialect
 
