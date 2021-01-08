@@ -5,11 +5,13 @@ Home: https://github.com/sqlalchemy-redshift/sqlalchemy-redshift
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sqlalchemy-redshift-feedstock/blob/master/LICENSE.txt)
 
 Summary: Amazon Redshift SQLAlchemy Dialect
 
+Development: https://github.com/sqlalchemy-redshift/sqlalchemy-redshift
 
+Documentation: https://sqlalchemy-redshift.readthedocs.io/en/latest/
 
 Current build status
 ====================
