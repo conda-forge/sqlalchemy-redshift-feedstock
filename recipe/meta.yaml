@@ -1,4 +1,4 @@
-{% set version = "0.8.7" %}
+{% set version = "0.8.8" %}
 
 package:
   name: sqlalchemy-redshift
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/sqlalchemy-redshift/sqlalchemy-redshift/archive/{{ version }}.tar.gz
-  sha256: 961e1f15c594160afff07791d1789a6401698a840e92bc3f1770b5199772b751
+  sha256: 860ba8c8ab614e861f8e0e5769384f315315886807cee0024f8f1576409ce7f3
 
 build:
   noarch: python
