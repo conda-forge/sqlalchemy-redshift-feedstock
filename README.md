@@ -1,11 +1,11 @@
-About sqlalchemy-redshift
-=========================
+About sqlalchemy-redshift-feedstock
+===================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sqlalchemy-redshift-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/sqlalchemy-redshift/sqlalchemy-redshift
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sqlalchemy-redshift-feedstock/blob/main/LICENSE.txt)
 
 Summary: Amazon Redshift SQLAlchemy Dialect
 
