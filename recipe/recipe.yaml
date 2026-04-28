@@ -1,0 +1,49 @@
+schema_version: 1
+
+context:
+  version: "1.0.0"
+
+package:
+  name: sqlalchemy-redshift
+  version: ${{ version }}
+
+source:
+  url: https://github.com/sqlalchemy-redshift/sqlalchemy-redshift/archive/${{ version }}.tar.gz
+  sha256: 5f7c9dda2c681c825fcf0154191df62479bf71baf9307688dfeebc2d81cd5bf3
+
+build:
+  number: 0
+  noarch: python
+  script: ${{ PYTHON }} -m pip install . --no-deps --no-build-isolation -vv
+
+requirements:
+  host:
+    - python ${{ python_min }}.*
+    - pip
+    - setuptools
+  run:
+    - python >=${{ python_min }}
+    - setuptools
+    - sqlalchemy >=2.0.0,<3
+    - packaging
+
+tests:
+  - python:
+      imports:
+        - sqlalchemy_redshift
+      pip_check: true
+      python_version: ${{ python_min }}.*
+
+about:
+  license: MIT
+  license_file: LICENSE
+  summary: Amazon Redshift SQLAlchemy Dialect
+  homepage: https://github.com/sqlalchemy-redshift/sqlalchemy-redshift
+  repository: https://github.com/sqlalchemy-redshift/sqlalchemy-redshift
+  documentation: https://sqlalchemy-redshift.readthedocs.io/en/latest/
+
+extra:
+  recipe-maintainers:
+    - mcg1969
+    - synapticarbors
+    - igorborgest
